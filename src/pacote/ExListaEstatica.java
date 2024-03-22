@@ -1,5 +1,6 @@
-package exlistaestatica;
-import listaestatica.*; //importar a ListaEstatica
+package pacote;
+
+import listaestatica.ListaEstatica;
 
 public class ExListaEstatica {
 
@@ -12,6 +13,9 @@ public class ExListaEstatica {
         le.insere(57,-3);
         le.deletar(2);
         le.imprime();
+        
+        System.out.println(le.le(2));
+        System.out.println(le.busca(36));
         
     }
     
